@@ -68,11 +68,11 @@ new sequence = 1-2-1-4-3-6 => (unused cities = {5})
 Adjusted sequence = 1-2-5-4-3-6 => valid solution
 
 ```
-##MUTATION
+## MUTATION
 - Two method was implamented:
   - Swap mutation,
   - Translation mutation
-###METHODOLOGY
+### METHODOLOGY
 - Generate a random number
 - **If** number is smaller than or equal to swap mutation threshold, implament swap mutation.
 - **Else**, implament translation muation.
